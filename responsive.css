@@ -1,0 +1,102 @@
+@media only screen and (max-width:800px){
+    .tabs{
+        position: absolute;
+        height: 200px;
+        top:60px;
+        left:0;
+        background:white;
+        width:100%;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: bold;
+        border-bottom:1px solid black;
+        display: none;
+    }
+    .tabs ul{
+        flex-direction: column;
+    }
+    .navbar{
+        padding:15px 0px 10px 30px;
+    }
+    .bars,
+    .close{
+        display: block;
+        color: black;
+    }
+    .hero{
+        margin:0;
+    }
+    .hero-text{
+        width:100%;
+    }
+    .about{
+        flex-direction: column;
+        margin:50px 10px;
+    }
+    .about-head{
+        width: 100%;
+        padding:20px;
+    }
+    .about-head h1{
+        width:100%;
+    }
+    .about-text{
+        width:95%;
+        padding: 10px;
+    }
+
+    .p-row{
+        flex-direction: column;
+    }
+    .projects{
+        margin:30px;
+    }
+    .project{
+        width:100%;
+        margin-top:50px;
+    }
+
+    .work{
+        margin:30px;
+        padding:30px 0px 30px 0px;
+    }
+    .work h1{
+        padding:20px 0px;
+    }
+    .work p{
+        width:90%;
+        padding:20px;
+        margin-bottom:30px;
+        color: rgba(107,114,128,2);
+    }
+
+    .skills{
+        text-align: center;
+        margin:50px 0px;
+    }
+    .skill-row{
+        display: flex;
+        justify-content: space-between;
+        width:75%;
+        margin: auto;
+        margin-top:50px;
+    }
+    .skill{
+        width:80px;
+        height:80px;
+    }
+    .skill img{
+        width:100%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer p{
+        padding:20px;
+    }
+    
+    
+
+}

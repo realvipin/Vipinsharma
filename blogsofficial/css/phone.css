@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1150px){
+    .coming-soon{
+	    text-align: center;
+	    background: rgb(236, 236, 236);
+	    width:100%;
+	    margin:0%;
+	    padding:100px 0;
+    }
+
+    .coming-soon h1{
+	    font-size: 5rem;
+    }
+
+    .coming-soon h4{
+    	font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .nav-items .nav-link{
+        width:100%;
+    }
+
+    .nav .nav-items .nav-link a{
+        width:1000%;
+    }
+
+    .nav .toggle-collapse{
+        display: initial;
+    }
+
+    input,textarea{
+        width:80%;
+    }
+
+    .detailed-blog .deatiled-blog-content-full p{
+        margin:20px 0px 20px 0px;
+    }
+
+}
+
+
+@media only screen and (max-width: 520px){
+   
+    nav .toggle-collapse{
+        width: 80% !important;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1150px){
+    .featured-data{
+        margin:8%;
+    }
+
+    .blogs{
+        flex-direction: column;
+    }
+
+    .blogs .left-part-blogs{
+        width:90%;
+        margin:5%;
+    }
+
+    .blogs .right-part-suggestion{
+        width:90%;
+        margin:5%;
+        text-align: center;
+    }
+
+    .blogs .right-part-suggestion .popular-post {
+        display: flex;
+    }
+
+    .blogs .right-part-suggestion .popular-post .single-blog-post{
+        width:100%;
+        margin:2%;
+    }
+
+    blogs .right-part-suggestion hr{
+        display: none;
+    }
+
+    .contact-msg h1{
+        width:25%;
+        margin:0 35%;
+    }
+
+    .detailed-blog{
+        flex-direction: column;
+    }
+
+    .detailed-blog .detailed-blog-content,
+    .detailed-blog .detailed-blog-suggest{
+        width:96%;
+        margin:2%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 725px){
+    
+    .social{
+        display: none;
+    }
+
+    .featured-data{
+        flex-direction: column;
+    }
+
+    .featured-articles .featured-single-article{
+        margin:5%;
+    }
+
+    .footer-top{
+        flex-direction: column;
+    }
+
+    .footer-section .about-us{
+        width:80%;
+        text-align:center;
+        margin:2% 7.5%;
+    }
+
+    .footer-section .newslatter{
+        width:80%;
+        text-align:center;
+        margin:2% 5%;
+    }
+
+    .instagram{
+        width:80%;
+        text-align:center;
+        margin:2% 5%;
+    }
+
+    .footer-section .follow{
+        width:80%;
+        text-align:center;
+        margin:2% 5%;
+    }
+
+    .blogs .right-part-suggestion .popular-post {
+        flex-direction: column;
+    }
+
+    .contact-form{
+        margin:0% 2%;
+    }
+
+    .contact-form .name{
+        width:87%;
+    }
+
+    .contact-form .name, .email , textarea{
+        margin:3% 0;
+    }
+
+    .contact-msg h1{
+        width:100%;
+        margin:0;
+        border:none;
+    }
+
+    .detailed-blog .deatiled-blog-content-full .share-at i{
+        padding:15px 9%;
+        color:white;
+        background-color: red;
+    }
+
+    .single-comment{
+        width:50%;
+    }
+
+}
